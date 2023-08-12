@@ -19,6 +19,7 @@ const TaskForm: React.FC = () => {
   return (
     <form className={styles.taskForm} onSubmit={handleSubmit}>
       <input
+        className={styles.input}
         type="text"
         placeholder="Adicione uma nova tarefa"
         value={title}

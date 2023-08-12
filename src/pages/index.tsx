@@ -8,7 +8,6 @@ const Home: React.FC = () => {
 
   return (
     <div>
-      <h1>Task Manager</h1>
       <TaskForm />
       <TaskList tasks={tasks} />
     </div>

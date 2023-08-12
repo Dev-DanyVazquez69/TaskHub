@@ -13,7 +13,6 @@ export const useTasks = () => {
   };
 
   const removeTask = async (id: Number) => {
-    alert(id);
     deleteTask(id);
   };
 

@@ -9,15 +9,14 @@ interface TaskItemProps {
 }
 
 const TaskItem: React.FC<TaskItemProps> = ({ task }) => {
-  
-  const {removeTask} = useTasks()
+  const { removeTask } = useTasks();
   return (
     <div className={styles.taskItem}>
       <input type="checkbox" checked={task.completed} />
       <span>{task.title}</span>
       <input type="checkbox" />
-      <button onClick={() => removeTask(task.id)}>delete</button>
-      <button onClick={() => alert("oi")}>Edit</button>
+      <button className="button" onClick={() => removeTask(task.id)}>delete</button>
+      <button className="button" onClick={() => alert("função indisponivel")}>Edit</button>
       {/* Botões para marcar como concluída, editar e excluir */}
     </div>
   );
