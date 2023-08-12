@@ -1,0 +1,13 @@
+/* styles/TaskList.module.css */
+.taskList {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    color:black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  

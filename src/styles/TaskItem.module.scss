@@ -1,0 +1,14 @@
+/* styles/TaskItem.module.css */
+.taskItem {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    background-color: #6ce9ff88;
+    
+    height: 50px;
+    border-radius: 5px;
+    padding: 10px;
+    justify-content: flex-start;
+  }
+  

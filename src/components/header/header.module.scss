@@ -1,0 +1,40 @@
+/* components/Header.module.scss */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+
+    div{
+      display: flex;
+      gap: 15px;
+      align-self: center;
+      justify-content: center;
+    }
+  
+    h1 {
+      margin: 0;
+    }
+  
+    nav {
+      ul {
+        list-style: none;
+        padding: 0;
+  
+        li {
+          display: inline-block;
+          margin-right: 10px;
+  
+          a {
+            color: #fff;
+            text-decoration: none;
+  
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+  
